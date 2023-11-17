@@ -1,0 +1,125 @@
+SF:C:\Users\gabri\OneDrive\Escritorio\FamilyTree_Local\FamilyTree\src\Library\AgeVisitor.cs
+FN:6,System.Int32 Library.AgeVisitor::get_AgeSum()
+FNDA:8,System.Int32 Library.AgeVisitor::get_AgeSum()
+DA:7,8
+FN:9,System.Void Library.AgeVisitor::Visit(Library.Node`1<Library.Person>)
+FNDA:3,System.Void Library.AgeVisitor::Visit(Library.Node`1<Library.Person>)
+DA:10,3
+DA:11,3
+DA:12,13
+DA:13,2
+DA:14,2
+DA:15,2
+DA:16,3
+BRDA:12,64,1,2
+BRDA:12,64,0,3
+LF:8
+LH:8
+BRF:2
+BRH:2
+FNF:2
+FNH:2
+end_of_record
+SF:C:\Users\gabri\OneDrive\Escritorio\FamilyTree_Local\FamilyTree\src\Library\LongestName.cs
+FN:6,System.String Library.LongestName::get_Longest()
+FNDA:9,System.String Library.LongestName::get_Longest()
+DA:7,9
+FN:9,System.Void Library.LongestName::Visit(Library.Node`1<Library.Person>)
+FNDA:3,System.Void Library.LongestName::Visit(Library.Node`1<Library.Person>)
+DA:10,3
+DA:11,3
+DA:12,3
+DA:13,3
+DA:15,13
+DA:16,2
+DA:17,2
+DA:18,2
+DA:19,3
+BRDA:11,29,0,1
+BRDA:11,29,1,2
+BRDA:15,94,1,2
+BRDA:15,94,0,3
+LF:10
+LH:10
+BRF:4
+BRH:4
+FNF:2
+FNH:2
+end_of_record
+SF:C:\Users\gabri\OneDrive\Escritorio\FamilyTree_Local\FamilyTree\src\Library\Node.cs
+FN:8,T Library.Node`1::get_Value()
+FNDA:18,T Library.Node`1::get_Value()
+DA:9,18
+FN:20,System.Collections.ObjectModel.ReadOnlyCollection`1<Library.Node`1<T>> Library.Node`1::get_Children()
+FNDA:20,System.Collections.ObjectModel.ReadOnlyCollection`1<Library.Node`1<T>> Library.Node`1::get_Children()
+DA:21,20
+DA:22,20
+DA:23,20
+FN:26,System.Void Library.Node`1::AddChildren(Library.Node`1<T>)
+FNDA:8,System.Void Library.Node`1::AddChildren(Library.Node`1<T>)
+DA:27,8
+DA:28,8
+DA:29,8
+FN:31,System.Void Library.Node`1::Accept(Library.IVisitor`1<Library.Node`1<T>>)
+FNDA:8,System.Void Library.Node`1::Accept(Library.IVisitor`1<Library.Node`1<T>>)
+DA:32,8
+DA:33,8
+DA:34,8
+FN:10,System.Void Library.Node`1::.ctor(T)
+FNDA:14,System.Void Library.Node`1::.ctor(T)
+DA:11,14
+DA:13,14
+DA:14,14
+DA:15,14
+DA:16,14
+LF:15
+LH:15
+BRF:0
+BRH:0
+FNF:5
+FNH:5
+end_of_record
+SF:C:\Users\gabri\OneDrive\Escritorio\FamilyTree_Local\FamilyTree\src\Library\OldestSon.cs
+FN:6,System.Int32 Library.OldestSon::get_Oldest()
+FNDA:17,System.Int32 Library.OldestSon::get_Oldest()
+DA:7,17
+FN:9,System.Void Library.OldestSon::Visit(Library.Node`1<Library.Person>)
+FNDA:7,System.Void Library.OldestSon::Visit(Library.Node`1<Library.Person>)
+DA:10,7
+DA:11,7
+DA:12,5
+DA:13,5
+DA:14,5
+DA:15,29
+DA:16,4
+DA:17,4
+DA:18,4
+DA:19,7
+BRDA:11,17,0,5
+BRDA:12,37,0,1
+BRDA:12,37,1,4
+BRDA:11,17,1,7
+BRDA:15,102,1,4
+BRDA:15,102,0,7
+LF:11
+LH:11
+BRF:6
+BRH:6
+FNF:2
+FNH:2
+end_of_record
+SF:C:\Users\gabri\OneDrive\Escritorio\FamilyTree_Local\FamilyTree\src\Library\Person.cs
+FN:8,System.Void Library.Person::.ctor(System.String,System.Int32)
+FNDA:15,System.Void Library.Person::.ctor(System.String,System.Int32)
+DA:9,15
+DA:10,15
+DA:11,15
+DA:12,15
+DA:13,15
+LF:5
+LH:5
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
